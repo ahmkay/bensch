@@ -8,7 +8,7 @@ export default function Footer() {
         <Box className="Footer">
             <Container maxWidth="md" className="container FooterContainer">
                 <Box className="FooterLeft">
-                    <img src="Embem.png" className='brandLogoFooter' />
+                    <img src="logo-small.png" className='brandLogoFooter' />
                 </Box>
                 <Box className="FooterMLeft">
                     <Typography align='center' className='FooterSubTitle'>Informationen</Typography>
@@ -28,13 +28,12 @@ export default function Footer() {
                 </Box>
                 <Box className="FooterRight">
                     <Typography align='center' className='FooterSubTitle'>Kontakt</Typography>
-                    <Typography className="FooterText">Notare Holland & Kreußlein</Typography>  
+                    <Typography className="FooterText">Notar Thomas Bensch</Typography>  
                     <Typography className="FooterText">Präsidentenstraße 47</Typography>  
                     <Typography className="FooterText">16816 Neuruppin</Typography>  
                     <Typography className="FooterText">info@bensch-notar.de</Typography>  
                     <Typography className="FooterText">Tel: 03391-458445</Typography>  
                     <Typography className="FooterText">Fax: 03391-458446</Typography>  
-
                 </Box>
             </Container>
 

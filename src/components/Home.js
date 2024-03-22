@@ -169,7 +169,7 @@ const ScrollAnimation = () => {
                                         </Box> 
                                         <Box>
                                             <Typography variant='h3' className='subtitleH3'>Notar Thomas Bensch</Typography>
-                                            <Typography variant='body1' paragraph>Matthias Sören Holland ist seit dem 1. Juli 2023 Notar auf Lebenszeit in Oranienburg und Partner der Sozietät der Notare Holland & Kreußlein. Er ist der Amtsnachfolger der Notarin a.D. Martina Fritzlar. Beglaubigungen sowie ausgewählte Beurkundungen können auch in englischer oder französischer Sprache vorgenommen werden.</Typography>
+                                            <Typography variant='body1' paragraph>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</Typography>
                                             <Button className='btnSecondary' onClick={() => toggleVisibility('elementToToggle1')}>{`${isVisible5 ? 'Einklappen' : 'Mehr zur Person'}`}</Button>
                                         </Box>
                                         
@@ -177,10 +177,9 @@ const ScrollAnimation = () => {
                                         
                                         <Box id="elementToToggle1" className={`notarBodyTextWrapper ${isVisible5 ? 'visible' : ''}`}>
                                         <Typography variant='body1' paragraph className='notarBodyText'>
-Nach dem Studium der Politik- und Verwaltungswissenschaften und des Öffentlichen Rechts an der Universität Potsdam sowie der Rechtswissenschaft an der Humboldt-Universität zu Berlin absolvierte Matthias Sören Holland das Rechtsreferendariat am Kammergericht in Berlin, u.a. mit Stationen am Bundesverfassungsgericht und im Bundesministerium des Innern. Seit 2012 war er Stipendiat der Studienstiftung des Deutschen Volkes.<br /><br />
-2019 wurde er in den Notaranwärterdienst des Landes Brandenburg aufgenommen und war dort zunächst dem Notar Karsten Strüben in Strausberg zur Ausbildung zugewiesen. 2021 wurde er an das Deutsche Notarinstitut (DNotI) in Würzburg abgeordnet. Darauf folgten weitere Zuweisungen nach Prenzlau, Königs Wusterhausen, Eberswalde und Oranienburg.<br /><br />
-
-Neben seiner Notartätigkeit ist Matthias Holland u.a. als freier Referent am Deutschen Notarinstitut (DNotI) in Würzburg tätig und ist Vorstandsmitglied und Schriftführer des Förderkreises des Notarinstituts der Humboldt-Universität zu Berlin. Zudem ist er an etlichen Veröffentlichungen im öffentlichen Recht und zu notarrechtlichen Themen beteiligt.</Typography>
+                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br /><br />
+                                        
+                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br /> </Typography>
                                         </Box>
                                     
 
@@ -201,9 +200,9 @@ Neben seiner Notartätigkeit ist Matthias Holland u.a. als freier Referent am De
                                     Hier finden Sie uns:
                                 </Typography>
                                 <Box className="contactMap">
-                                    <iframe width="100%" height="400px" frameBorder="0" allowFullScreen src="//umap.openstreetmap.de/de/map/notar-kreuslein-holland_47149?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=false&onLoadPanel=none&captionBar=false&datalayers=184102"></iframe>
+                                <iframe width="100%" height="400px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.de/de/map/notar-thomas-bensch-karte_55438?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true"></iframe>
                                 </Box>
-                                <Typography variant='body1' paragraph className="contactMapRouteLink">Einen Routenplaner finden sie <a href="https://www.google.com/maps/dir//Notare+Holland+%26+Kreu%C3%9Flein,+Prenzlauer+Str.+11,+16515+Oranienburg/@52.7596784,13.2514147,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4164e8afdba0e241:0x9b19020e624be46c!2m2!1d13.2539073!2d52.7596041!3e0?hl=en&entry=ttu" target="_blank">hier</a>.</Typography>
+                                <Typography variant='body1' paragraph className="contactMapRouteLink">Einen Routenplaner finden sie <a href="https://www.google.com/maps/dir//Pr%C3%A4sidentenstra%C3%9Fe+47,+16816+Neuruppin,+Germany/@52.9228206,12.8022116,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47a93daef2b5288f:0x8b0754e2b416faa6!2m2!1d12.8047865!2d52.9228206!3e0?entry=ttu" target="_blank">hier</a>.</Typography>
 
                             </Container>
 

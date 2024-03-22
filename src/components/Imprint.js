@@ -16,16 +16,18 @@ const Imprint = () => {
 
           <Typography variant='h2' className='sectionTitle3 marginTop'>Angaben gemäß § 5 TMG</Typography>
           <Typography variant='body1' className='sectionText'>
-            Notare Matthias Sören Holland & Dr. Matthias Kreußlein<br />
-            Prenzlauer Straße 11<br />
-            16515 Oranienburg<br />
-            USt.-ID: DE 362012615
+          Notar Thomas Bensch<br />
+          Präsidentenstraße 47 16816 Neuruppin<br />
+
+          Tel 03391 - 458445<br />
+          Fax 03391 - 458446<br />
+          E-Mail info@bensch-notar.de<br />
           </Typography>
 
 
           <Typography variant='h2' className='sectionTitle3 marginTop'>Kontakt</Typography>
-          <Typography variant='body1' className='sectionText'>Telefon: 03301/801138<br />
-          E-Mail: info@holland-kreusslein.de</Typography>
+          <Typography variant='body1' className='sectionText'>Telefon: 03391 - 458445<br />
+          E-Mail: info@bensch-notar.de</Typography>
 
 
           <Typography variant='h2' className='sectionTitle3 marginTop'>Aufsichtsbehörde</Typography>
@@ -65,7 +67,7 @@ const Imprint = () => {
 
           <Typography variant='h2' className='sectionTitle3 marginTop'>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</Typography>
           <Typography variant='body1' className='sectionText'>
-          Matthias Sören Holland & Dr. Matthias Kreußlein  
+          Thomaws Bensch
           </Typography>
 
 

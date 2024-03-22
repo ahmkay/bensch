@@ -52,7 +52,7 @@ function DrawerAppBar(props) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" className='drawerTitle' sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }} >
-          <a href='/'> <img src="Embem.png" className='brandLogo' /> </a>
+          <a href='/'> <img src="logo-small.png" className='brandLogo' /> </a>
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }} className="navLinksBox">       
             {/* <NavLink to="/#leistungen">Leistungen</NavLink>
