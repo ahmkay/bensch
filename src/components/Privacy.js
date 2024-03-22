@@ -61,11 +61,12 @@ Um die datenschutzkonforme Verarbeitung zu gewährleisten, haben wir einen Vertr
           <Typography variant='body1' className='sectionText'>
           <b>Hinweis zur verantwortlichen Stelle</b><br /><br />
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:<br/>
-          Notare Matthias Sören Holland & Dr. Matthias Kreußlein<br />
-Prenzlauer Straße 11<br />
-16515 Oranienburg<br />
-          Tel.: 03301/801138<br />
-E-Mail: info@holland-kreusslein.de</Typography><br />
+Notar Thomas Bensch<br />
+          Präsidentenstraße 47 16816 Neuruppin<br />
+
+          Tel 03391 - 458445<br />
+          Fax 03391 - 458446<br />
+          E-Mail info@bensch-notar.de<br /></Typography><br />
           <Typography variant='body1' className='sectionText'>
           <b>Gesetzlich vorgeschriebener Datenschutzbeauftragter</b><br /><br />
 Der bestellte Datenschutzbeauftragte ist die Gesellschaft für notariellen Datenschutz mit beschränkter Haftung (GNotDS)<br/>
