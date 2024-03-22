@@ -20,11 +20,11 @@ export default function Footer() {
                 </Box>
                 <Box className="FooterMRight">
                     <Typography align='center' className='FooterSubTitle'>Öffnungszeiten</Typography>
-                    <Typography className="FooterText">Mo 9 - 18 Uhr</Typography>          
-                    <Typography className="FooterText">Di 9 - 18 Uhr</Typography>          
-                    <Typography className="FooterText">Mi 9 - 18 Uhr</Typography>          
-                    <Typography className="FooterText">Do 9 - 18 Uhr</Typography>          
-                    <Typography className="FooterText">Fr 9 - 15 Uhr</Typography>          
+                    <Typography className="FooterText">Mo 9 - 12 & 13 - 17 Uhr</Typography>          
+                    <Typography className="FooterText">Di 9 - 12 & 13 - 18 Uhr</Typography>          
+                    <Typography className="FooterText">Mi 9 - 12 & 13 - 17 Uhr</Typography>          
+                    <Typography className="FooterText">Do 9 - 12 & 13 - 17 Uhr</Typography>          
+                    <Typography className="FooterText">Fr 9 - 12 & 13 - 14 Uhr</Typography>          
                 </Box>
                 <Box className="FooterRight">
                     <Typography align='center' className='FooterSubTitle'>Kontakt</Typography>
@@ -33,8 +33,7 @@ export default function Footer() {
                     <Typography className="FooterText">16816 Neuruppin</Typography>  
                     <Typography className="FooterText">info@bensch-notar.de</Typography>  
                     <Typography className="FooterText">Tel: 03391-458445</Typography>  
-                    <Typography className="FooterText">Fax: 03391-458446</Typography>  
-
+                    <Typography className="FooterText">Fax: 03391-458446</Typography>
                 </Box>
             </Container>
 

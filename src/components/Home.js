@@ -1,4 +1,3 @@
-
 import { Typography, Button, Box, Grid, Container } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import Contactform from './Contactform';
@@ -111,8 +110,8 @@ const ScrollAnimation = () => {
 
                                         <Grid container item xs={12} sm={12} spacing={0}>
                                             <Box className="textBoxInner">
-                                                <Typography variant='h3' className='subtitleH3'>Wir heißen Sie herzlich willkommen in unserem Notarbüro</Typography>
-                                                <Typography variant='body1'>Als Notare bekleiden wir ein öffentliches Amt und sind zur Neutralität verpflichtet. Wir sind Ihre unparteiischen Berater, auch in kom­plizierten und folgenreichen Rechtsangelegenheiten. Wir sorgen dafür, dass Sie die Tragweite Ihrer Erklärungen und Ihres Handelns verstehen, und unterstützen Sie dabei, Ihre Anliegen rechtlich angemessen umzusetzen.</Typography>
+                                                <Typography variant='h3' className='subtitleH3'>Ich heißen Sie herzlich willkommen in meinem Notarbüro</Typography>
+                                                <Typography variant='body1'>Als Notar bekleide ich ein öffentliches Amt und bin zur Neutralität verpflichtet. Ich bin Ihr unparteiischen Berater, auch in kom­plizierten und folgenreichen Rechtsangelegenheiten. Ich sorgen dafür, dass Sie die Tragweite Ihrer Erklärungen und Ihres Handelns verstehen, und unterstütze Sie dabei, Ihre Anliegen rechtlich angemessen umzusetzen.</Typography>
                                             </Box>
                                         </Grid>
 
