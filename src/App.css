@@ -1,0 +1,1374 @@
+@font-face {
+  font-family: "RobotoSerif";
+  src: local("Roboto"), url("./font/RobotoSerif-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoSerif";
+  src: local("Roboto"), url("./font/RobotoSerif-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoSerif";
+  src: local("Roboto"), url("./font/RobotoSerif-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "RobotoSerif";
+  src: local("Roboto"), url("./font/RobotoSerif-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoSerif";
+  src: local("Roboto"), url("./font/RobotoSerif-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "RobotoSerif";
+  src: local("Roboto"), url("./font/RobotoSerif-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoSerif";
+  src: local("Roboto"), url("./font/RobotoSerif-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "RobotoSerif";
+  src: local("Roboto"), url("./font/RobotoSerif-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoSerif";
+  src: local("Roboto"), url("./font/RobotoSerif-LightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("./font/Roboto-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("./font/Roboto-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("./font/Roboto-Bold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("./font/Roboto-BoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("./font/Roboto-Medium.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("./font/Roboto-MediumItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("./font/Roboto-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("./font/Roboto-Italic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("./font/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("./font/Roboto-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("./font/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("./font/Roboto-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family:  "Roboto", Arial, Helvetica, sans-serif !important;
+}
+
+.App {
+  font-family:  "Roboto", Arial, Helvetica, sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+  font-family:  "Roboto", Arial, Helvetica, sans-serif !important;
+}
+p {
+  font-family:  "RobotoSerif", Arial, Helvetica, sans-serif !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #2b3133;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  font-weight: 600;
+  color:  #9ab79b;
+  text-decoration: none;
+}
+
+.textaccent {
+  color: #9eafb7;
+}
+.textaccentfat {
+  color: #9eafb7;
+  font-weight: 700;
+}
+
+.sectionTitle {
+  font-size: 34px !important;
+  color: #000 !important;
+  margin: 10px 0px 10px 0px !important;
+  font-family:  "Roboto", Arial, Helvetica, sans-serif !important;
+  font-weight: 300 !important;
+}
+
+.sectionTitle3 {
+  font-size: 24px !important;
+  font-weight: 200 !important;
+  color: #000 !important;
+  margin: 0px 0px 20px 0px !important;
+  font-family:  "Roboto", Arial, Helvetica, sans-serif !important;
+}
+
+.subtitleH3 {
+  font-size: 28px !important;
+  margin: 0px 0px 10px 0px !important;
+  font-weight: 300 !important;
+}
+
+.sectionText {
+  margin-bottom: 20px !important;
+}
+
+p {
+  font-size: 16px !important;
+  font-weight: 200 !important;
+  color: #000;
+}
+
+.navbar {
+  background-color: #fff !important;
+  color: #000 !important;
+  box-shadow: 0px 0px 15px #0000001c !important;
+}
+.black {
+  color: #000 !important;
+}
+.brandLogo {
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: -5px;
+}
+.brandLogoFooter {
+  height: 75px;
+  padding: 0px;
+  margin: 0px;
+  filter: invert(1);
+}
+
+.navTitleLink {
+  color: #fff !important;
+  font-weight: 300;
+}
+.navTitleLinkblack {
+  color: #000 !important;
+  font-weight: 300;
+}
+
+.navButton {
+  float: right;
+}
+
+.navItems {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.navItems {
+  text-transform: none !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+}
+
+.navLinksBox > a {
+  text-transform: none !important;
+  text-decoration: none;
+  color: #000;
+  margin: 0px 10px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.navLinksBox > a:hover {
+  color:  #9ab79b;
+}
+.navLinksBox > a.active {
+  /* font-weight: 600;
+  color: #9eafb7 !important; */
+}
+
+.drawerTitle {
+  display: grid;
+  font-weight: 300 !important;
+  line-height: 1.2em;
+  background-color: #fff;
+  color: #000;
+  margin: 0px !important;
+  padding: 15px !important;
+}
+
+.navItemDrawer {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: none !important;
+  text-decoration: none;
+  color: #000;
+  margin: 20px 0px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.navItemDrawer:hover {
+  color: #b3b3b3;
+}
+
+.drawerTitle {
+  padding: 0px 16px;
+}
+
+.navbarButton {
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.navbarButton {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: none;
+  border: none;
+}
+
+.container {
+  padding: 100px 0px;
+  position: relative;
+}
+.subheroContainer {
+  padding: 100px 0px;
+}
+
+.mainWrapper {
+  background-color: #fff;
+  z-index: 9;
+  position: relative;
+}
+
+/* HERO */
+.heroWrapper {
+  position: relative;
+  height: 65vh;
+    min-height: 500px;
+    max-height: 800px;
+  background-color: #fff;
+  background-image: url("../public/back-s.jpg");
+  /* src -> https://commons.wikimedia.org/wiki/File:20120408030MDR_Oranienburg_Schlo%C3%9F.jpg */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 0;
+}
+
+.heroWrapperLayer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  padding-bottom: 200px;
+}
+
+.containerHero {
+  position: relative;
+  padding-top: 100px;
+  display: flex !important;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+  z-index: 2;
+  color: #fff;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+  opacity: 0;
+  transform: translateY(75px);
+  animation: fadeIn .7s ease-in-out 0s forwards;
+  -webkit-animation: fadeIn .7s ease-in-out 0s forwards;
+  -moz-animation: fadeIn .7s ease-in-out 0s forwards;
+  -o-animation: fadeIn .7s ease-in-out 0s forwards;
+  animation: fadeIn .7s ease-in-out 0s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.heroCTA {
+  font-family:  "Roboto", Arial, Helvetica, sans-serif !important;
+  background-color: #9ab79b !important;
+  color: #ffffff !important;
+  padding: 3px 25px 3px 25px !important;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  float: left;
+  box-shadow: none !important;
+  border-radius: 2px !important;
+  text-transform: none !important;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.heroCTA>span {
+  font-family:  "Roboto", Arial, Helvetica, sans-serif !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.heroCTA:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.HeroBox {
+  background-color: #ffffffed;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  position: fixed;
+  width: auto;
+  max-width: 90vw;
+  margin: auto;
+  z-index: 1;
+  border-radius: 2px;
+  box-shadow: 0px 0px 15px #0000001c;
+  padding: 2rem;
+}
+
+.HeroBox>h1 {
+  color: #000;
+  font-size: 2.4rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Roboto";
+  font-weight: 400;
+  letter-spacing: .45rem;
+}
+
+.HeroBox>h1>span {
+  font-weight: 900;
+}
+
+.HeroBox>h2 {
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Roboto";
+  font-weight: 300;
+  margin-top: 20px;
+  margin-top: 0px;
+  letter-spacing: .45rem;
+}
+
+.HeroBox>p {
+  color: #000;
+  font-size: 18px !important;
+  font-weight: 300;
+  text-align: center;
+  max-width: 330px;
+}
+
+.HeroLogo {
+  width: 60px;
+  margin: 10px;
+}
+.HeroLogoImg {
+  width: 370px;
+  margin: 0px 0px 20px 0px;
+}
+.invisible {
+  opacity: 0 !important;
+  height: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+/* HERO */
+
+/* Footer */
+.Footer {
+  width: 100%;
+  padding: 20px;
+  margin: 0px;
+  background-color: #000;
+  color: #fff;
+}
+
+.FooterContainer {
+  display: flex !important;
+  color: #fff;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 0px;
+}
+
+.FooterLeft {
+  margin: 0;
+}
+
+.FooterRight, .FooterMLeft, .FooterMRight {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.FooterImage {
+  width: 38px;
+}
+
+.FooterSubTitle {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  margin-bottom: 5px !important;
+  color: #fff;
+}
+.FooterLink, .FooterText {
+  text-align: right;
+  color: #fff;
+  text-decoration: none;
+  margin: 2px 0px;
+  font-weight: 200 !important;
+  font-size: 16px !important;
+}
+
+.FooterLink:hover {
+  color:  #9ab79b;
+}
+
+.FooterTitle {
+  font-weight: 300 !important;
+  font-size: 28px !important;
+  margin-top: -0px !important;
+}
+
+/* Footer */
+
+/* Service Option Auswahl */
+.serviceContainer {
+  margin-top: -0px;
+  background-color: transparent;
+  padding-top: 140px;
+}
+.leistungenContainer {
+  background-color: transparent;
+  padding-top: 90px !important;
+  padding-bottom: 100px !important;
+}
+
+.servOptItem {
+  background-color: transparent;
+  width: 100%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  /* border: 4px solid transparent; */
+  border-radius: 2px;
+  box-shadow: 0px 0px 15px #0000001c;
+  cursor: pointer;
+  transform: translateY(75px);
+  opacity: 0;
+}
+
+#soi1.visible {
+  animation: fadeInB .7s ease-in-out 0s forwards;
+  -webkit-animation: fadeInB .7s ease-in-out 0s forwards;
+  -moz-animation: fadeInB .7s ease-in-out 0s forwards;
+  -o-animation: fadeInB .7s ease-in-out 0s forwards;
+  animation: fadeInB .7s ease-in-out 0s forwards;
+}
+#soi2.visible {
+  animation: fadeInB .7s ease-in-out 0.2s forwards;
+  -webkit-animation: fadeInB .7s ease-in-out 0.2s forwards;
+  -moz-animation: fadeInB .7s ease-in-out 0.2s forwards;
+  -o-animation: fadeInB .7s ease-in-out 0.2s forwards;
+  animation: fadeInB .7s ease-in-out 0.2s forwards;
+}
+#soi3.visible {
+  animation: fadeInB .7s ease-in-out 0.4s forwards;
+  -webkit-animation: fadeInB .7s ease-in-out 0.4s forwards;
+  -moz-animation: fadeInB .7s ease-in-out 0.4s forwards;
+  -o-animation: fadeInB .7s ease-in-out 0.4s forwards;
+  animation: fadeInB .7s ease-in-out 0.4s forwards;
+}
+#soi4.visible {
+  animation: fadeInB .7s ease-in-out 0.6s forwards;
+  -webkit-animation: fadeInB .7s ease-in-out 0.6s forwards;
+  -moz-animation: fadeInB .7s ease-in-out 0.6s forwards;
+  -o-animation: fadeInB .7s ease-in-out 0.6s forwards;
+  animation: fadeInB .7s ease-in-out 0.6s forwards;
+}
+
+@keyframes fadeInB {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fadeInOpac {
+  opacity: 0;
+  animation: fadeInC 1s ease-in-out 1s forwards;
+  -webkit-animation: fadeInC 1s ease-in-out 1s forwards;
+  -moz-animation: fadeInC 1s ease-in-out 1s forwards;
+  -o-animation: fadeInC 1s ease-in-out 1s forwards;
+  animation: fadeInC 1s ease-in-out 1s forwards;
+}
+
+@keyframes fadeInC {
+  to {
+    opacity: 1;
+  }
+}
+
+.servOptLink {
+  width: 100% !important;
+  height: 100%;
+  display: block;
+  /* border: 2px solid #fff; */
+  overflow: hidden;
+}
+
+.servOptLink:hover .servItemBackground {
+  transform: scale(1.05);
+}
+
+.servOptLink:hover .serviceLayer {
+  opacity: 0;
+}
+
+.servItemBackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#opt1 {
+  background-image: url("../public/service1c.jpg");
+  /* src -> https://artist.scop.io/image/white-concrete-building-near-green-grass-field-8 */
+  /* src -> https://artist.scop.io/image/yellow-and-brown-concrete-building-1 */
+}
+
+#opt2 {
+  background-image: url("../public/service2b.jpg");
+  /* src -> https://artist.scop.io/image/woman-in-white-long-sleeve-shirt-sitting-on-chair-20 */
+}
+
+#opt3 {
+  background-image: url("../public/service4.jpg");
+  /* src -> https://artist.scop.io/image/family-standing-beside-glass-window */
+  /* src -> https://artist.scop.io/image/person-holding-a-cup-of-coffee-while-sitting-at-a-desk-with-laptop-in-office */
+  /* src -> https://artist.scop.io/image/person-holding-black-android-smartphone-51 */
+}
+
+#opt4 {
+  background-image: url("../public/service3c.jpg");
+  /* src -> https://artist.scop.io/image/person-writing-on-white-paper-79 */
+  /* src -> https://pixabay.com/de/photos/familie-liebe-drau%C3%9Fen-frau-mann-3602245/ */
+}
+
+.serviceLayer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color:  #9ab79b45;
+  opacity: 1;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.leistungenGrid {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+.servOptText {
+  display: block;
+  position: absolute;
+  padding: 5px;
+  left: 0px;
+  width: 100%;
+  color: #fff;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  text-align: center;
+  margin: 0px;
+  background-color: #9ab79b;
+  text-decoration: none !important;
+}
+
+.servOptTextModal {
+  display: block;
+  position: relative;
+  padding: 10px;
+  left: 0px;
+  width: 100%;
+  color: #fff;
+  margin: 0px;
+  background-color:  #9ab79b;
+  text-decoration: none !important;
+  overflow: hidden;
+  border-radius: 2px;
+  box-shadow: 0px 0px 15px #0000001c;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+.servOptTextModal:hover {
+  background-color: #313131;
+  color: #fff;
+  ;
+  box-shadow: 0px 0px 15px #0000001c;
+}
+
+.servOptTextModal:hover>p {
+  /* transform: scale(1.02); */
+  color: #fff;
+}
+.servOptInfo {
+  height: 0;
+  overflow: hidden;
+  padding-top: 0px !important;
+  transition: height 0.5s ease;
+}
+.servOptInfo.visible {
+  height: auto;
+}
+
+.servOptTextBox {
+  color: #fff;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  text-align: center;
+  margin: 0px;
+  text-decoration: none !important;
+  transition: all .1s ease;
+}
+
+.modalServiceGrid {
+  margin-top: 10px !important;
+}
+
+.servOptTextWrapper {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  align-items: end;
+  justify-content: center;
+  bottom: 0px;
+  position: absolute;
+}
+
+.modalOuterBox {
+  position: relative;
+}
+
+.modalInnerBox {
+  box-shadow: 0px 0px 15px #0000001c;
+  border-radius: 3px;
+  border: none !important;
+  background-color: #ffffff !important;
+  color: #313131;
+  width: 500px !important;
+}
+
+.modalInnerBox:focus-visible {
+  border: none !important;
+  outline: none;
+}
+
+.modalTitle {
+  font-size: 24px !important;
+  font-weight: 400;
+}
+
+.modalText {
+  font-size: 18px !important;
+  font-weight: 400;
+}
+
+/* Service Option Auswahl */
+
+/* Text Sektion */
+.bannerSection {
+  background-color: #FAFAFA;
+  padding: 0px 0px;
+}
+
+.textBox {
+  background-color: transparent;
+  color: #000;
+  border-radius: 2px;
+  /* box-shadow: 0px 0px 15px #0000001c; */
+  position: relative;
+  opacity: 0;
+  animation: fadeInB 1s ease-in-out 0.5s forwards;
+  -webkit-animation: fadeInB 1s ease-in-out 0.5s forwards;
+  -moz-animation: fadeInB 1s ease-in-out 0.5s forwards;
+  -o-animation: fadeInB 1s ease-in-out 0.5s forwards;
+  animation: fadeInB 1s ease-in-out 0.5s forwards;
+}
+
+
+.textBoxInner {
+  padding: 0px 0px;
+  position: relative;
+}
+
+.textboxImage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  object-fit: cover;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.textBoxImageInner:hover .textboxImage {
+  transform: scale(1.05);
+}
+
+/* .textBoxImageInner:hover .textboxImageLayer  {
+  opacity: 0.3;
+} */
+.textBoxImageInner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px #0000001c;;
+}
+
+.textboxImageLayer {
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  /* background-color:  #9ab79b87; */
+  background: rgb(154, 175, 183);
+  background: linear-gradient(90deg, rgba(154, 175, 183, 1) 3%, rgba(154, 175, 183, 0) 84%);
+  opacity: 1;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.list {
+  padding-left: 25px;
+}
+
+.marginTop {
+  margin-top: 50px !important;
+}
+
+/* Text Sektion */
+
+/* Contact */
+.contactWrapper {
+  box-shadow: 0px 0px 15px #0000001c;
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 50px 0px;
+}
+
+.contactFormTop {
+  background-color: #9ab79b;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.contactTopItem>a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactTopIcon {
+  font-size: 45px !important;
+}
+
+.contactTopText {
+  margin: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.contactFormTopGrid {
+  position: relative;
+  padding: 10px;
+}
+
+.contactBottomWrapper {
+  position: relative;
+  padding: 10px;
+}
+
+.contactInput {
+  width: 100%;
+}
+.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  font-size: 14px;
+  line-height: 140%;
+}
+
+#contactCheckbox>span {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.contactFormBtn {
+  background-color: #9ab79b !important;
+  padding: 4px 15px 2px 15px !important;
+  font-size: 18px !important;
+  float: left;
+  box-shadow: none !important;
+  border-radius: 3px !important;
+  text-transform: none !important;
+  width: 100%;
+}
+.MuiFormControlLabel-asterisk {display: none;}
+#contactFormBottomControls {
+  margin-top: -20px;
+}
+
+.contactMap {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+  box-shadow: 0px 0px 15px #0000001c;
+  border-radius: 3px;
+  height: 350px;
+}
+.contactMapRouteLink {
+  margin-top: 20px !important;
+}
+#formFail, #formSuccess, #formMessageBox {display: none;}
+#formMessageBox {padding: 10px;}
+
+.mapFrame {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 350px;
+}
+
+#gmap_canvas img {
+  max-width: none !important;
+  background: none !important
+}
+
+.mapouterBody {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.mapInnerBody {
+  position: absolute;
+  width: 80%;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+  text-align: center;
+}
+
+.mapSmall {
+  line-height: 1.8;
+  font-size: 2px;
+  background: #fff;
+}
+
+.gridImage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.css-1ff8729-MuiInputBase-root-MuiFilledInput-root,
+.css-85zwa9-MuiInputBase-root-MuiFilledInput-root {
+  background-color: rgb(250 250 250) !important;
+}
+
+/* Contact */
+
+#rcc-confirm-button {
+  background-color: #000 !important;
+  padding: 2px 25px 3px 25px !important;
+  line-height: 1.75;
+  font-weight: 300;
+  font-family:  "Roboto", Arial, Helvetica, sans-serif !important;
+}
+.CookieConsent {
+  align-items: center !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-content: center !important;
+}
+.CookieConsent > div > p {
+  font-weight: 300 !important;
+  font-size: 16px !important;
+  line-height: 1.5;
+}
+
+div#notare {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+.notareGrid {
+  padding: 30px 0px;
+}
+.notarElement {
+  margin-top: 00px !important;
+  margin-bottom: 40px !important
+}
+.notarInnerBox {
+  display: grid;
+  flex-direction: row;
+  align-content: flex-end;
+  align-items: flex-end;
+  column-gap: 30px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 4fr;
+  /* grid-template-rows: 1fr;
+  grid-template-columns: 32fr 68fr; */
+}
+img.notarImg {
+  position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+    object-position: 50% 30%;
+    transition: all .2s ease;
+}
+.notarImg:hover {
+  transform: scale(1.05);
+}
+.notarImgWrapper {
+  position: relative;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px #0000001c;
+}
+.btnSecondary {
+  font-family:  "Roboto", Arial, Helvetica, sans-serif !important;
+  font-weight: 300 !important;
+  background-color: #9ab79b !important;
+  padding: 4px 15px 2px 15px !important;
+  font-size: 18px !important;
+  float: left;
+  box-shadow: none !important;
+  border-radius: 3px !important;
+  text-transform: none !important;
+  width: auto;
+  color: #fff !important;
+}
+.btnSecondary:hover {
+  background-color:  #9ab79b !important;
+}
+.notarBodyTextWrapper {
+  height: 0px;
+  overflow: hidden;
+  transition: all .5s;
+}
+.notarBodyTextWrapper.visible {
+  height: 100%;
+}
+.notarBodyText {
+  margin-top: 20px !important;
+  margin-bottom: 60px !important;
+}
+
+/* BREAKPOINTS */
+@media (max-width: 800px) {
+  .HeroLogoImg {
+    width: 300px;
+    margin: 0px 0px 20px 0px;
+  }
+  .HeroBox {
+    z-index: 1;
+    margin-top: -20px;
+  }
+  .HeroBox>h1 {
+    font-size: 2rem;
+  }
+  .HeroBox>p {
+    font-size: 16px !important;
+  }
+  .HeroLogo {
+    width: 50px;
+    margin: 10px;
+  }
+
+  .heroCTA {
+    font-size: 14px !important;
+  }
+
+  p {
+    font-size: 18px !important;
+  }
+
+  .sectionTitle {
+    font-size: 28px !important;
+  }
+
+  .servOptItem {
+    height: 250px;
+  }
+
+  #opt1 {
+    background-position: 50% 80%;
+  }
+
+  #opt2 {
+    background-position: 50% 50%;
+  }
+
+  #opt3 {
+    background-position: 50% 30%;
+  }
+
+  .servOptText {
+    padding: 2px;
+    font-size: 20px !important;
+  }
+
+  .container {
+    padding: 100px 0px;
+  }
+
+  .subtitleH3 {
+    font-size: 22px !important;
+  }
+
+  .textBoxInner {
+    padding: 0px 15px;
+  }
+
+  .textBoxImageInner {
+    height: 150px;
+  }
+
+  .textboxImageLayer {
+    width: 100%;
+    background: rgb(154, 175, 183);
+    background: linear-gradient(180deg, rgba(154, 175, 183, 1) 3%, rgba(154, 175, 183, 0) 40%);
+    opacity: 1;
+  }
+
+  .contactTopIcon {
+    font-size: 35px !important;
+  }
+
+  .contactTopItem>a {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .contactFormTopGrid {
+    position: relative;
+    padding: 15px;
+  }
+
+  .contactBottomWrapper {
+    padding: 0px;
+  }
+
+  .css-1avtkvr-MuiGrid-root>.MuiGrid-item {
+    padding-left: 16px;
+  }
+
+  .contactFormTopGrid {
+    padding: 10px 15px;
+  }
+
+  .heroWrapper {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .FooterContainer {
+    display: grid !important;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px auto 20px;
+  }
+}
+@media (max-width: 600px) {
+  .contactTopText {
+    text-align: left;
+}
+  .sectionTitle3 {
+    font-size: 20px !important;
+  }
+  .HeroLogoImg {
+    width: 50vw;
+    margin: 0px 0px 20px 0px;
+  }
+  .heroWrapper {
+    height: 30vh;
+    background-attachment: local;
+}
+  .navbar > div {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+  }
+  .css-i4bv87-MuiSvgIcon-root {
+    width: 1em !important;
+    height: 1em !important;
+}
+.css-6iz4mj-MuiButtonBase-root-MuiIconButton-root {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.brandLogoFooter {
+  margin-bottom: 50px;
+}
+  .HeroBox>h1 {
+    font-size: 1.6rem;
+    letter-spacing: .2rem;
+  }
+  .textBoxInner {
+    padding: 0px 0px;
+}
+.drawerTitle  {
+  display: block !important;
+}
+  .HeroBox>h2 {
+    font-size: 1.5rem;
+    
+  }
+  .HeroLogo {
+    width: 45px;
+}
+  .servOptItem {
+    height: 220px;
+  }
+
+  .FooterTitle {
+    font-size: 26px !important;
+    text-align: center;
+    margin-bottom: 20px !important;
+  }
+
+  .FooterLink {
+    text-align: center;
+  }
+  .serviceContainer {
+    padding-top: 120px;
+  }
+  .leistungenContainer {
+    padding-top: 80px !important;
+    padding-bottom: 90px !important;
+  }
+  .modalInnerBox {
+    width: 90% !important;
+    padding: 20px !important;
+  }
+  .css-qiawb8-MuiGrid-root>.MuiGrid-item {
+    padding-top: 0px !important;
+}
+}
+@media (max-width: 500px) {
+  .FooterContainer {
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .FooterRight, .FooterMLeft, .FooterMRight {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+}
+
+@media (max-width: 400px) {
+  .heroWrapper {
+    min-height: 450px;
+  }
+  .HeroLogoImg {
+    width: 70vw;
+    margin: 0px 0px 20px 0px;
+    min-width: 200px;
+  }
+  .HeroBox>h1 {
+    font-size: 1.3rem;
+    letter-spacing: .15rem;
+  }
+  .HeroBox>h2 {
+    font-size: 1.2rem;
+    margin-top: 1px;
+  }
+  .HeroLogo {
+    width: 40px;
+    margin: 5px;
+}
+}
+
+/* BREAKPOINTS */
