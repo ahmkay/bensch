@@ -17,16 +17,15 @@ const Imprint = () => {
           <Typography variant='h2' className='sectionTitle3 marginTop'>Angaben gemäß § 5 TMG</Typography>
           <Typography variant='body1' className='sectionText'>
           Notar Thomas Bensch<br />
-          Präsidentenstraße 47 16816 Neuruppin<br />
+          Präsidentenstraße 47<br />
+          16816 Neuruppin<br /><br />
 
-          Tel 03391 - 458445<br />
-          Fax 03391 - 458446<br />
-          E-Mail info@bensch-notar.de<br />
+          USt.-ID: DE359683423<br />
           </Typography>
 
 
           <Typography variant='h2' className='sectionTitle3 marginTop'>Kontakt</Typography>
-          <Typography variant='body1' className='sectionText'>Telefon: 03391 - 458445<br />
+          <Typography variant='body1' className='sectionText'>Telefon: 03391/458445<br />
           E-Mail: info@bensch-notar.de</Typography>
 
 
@@ -55,13 +54,14 @@ const Imprint = () => {
           <Typography variant='body1' className='sectionText'>
           Berufsbezeichnung: Notar<br /><br />
           Kammer: Notarkammer des Landes Brandenburg<br />
-          Dortustraße 71, 14467 Potsdam
+          14467 Potsdam<br /> 
+          Dortustraße 71 
           </Typography>
           <Typography variant='body1' className='sectionText'>
           Verliehen in: Bundesrepublik Deutschland
           </Typography>
           <Typography variant='body1' className='sectionText'>
-          Der Berufsstand Notar / Notarin unterliegt den unter https://www.notar.de/der-notar/berufsrecht genannten berufsrechtlichen Regelungen.
+          Der Berufsstand Notar / Notarin unterliegt den unter <a href="https://www.notar.de/der-notar/berufsrecht">https://www.notar.de/der-notar/berufsrecht</a> genannten berufsrechtlichen Regelungen.
           </Typography>
 
 

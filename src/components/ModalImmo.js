@@ -49,9 +49,12 @@ export default function ModalImmo() {
 
                     <Grid container justifyContent="center" spacing={2} className='modalServiceGrid'>
                         <Grid item xs={12} sm={12}>         
-                                <a href="https://dialog.holland-kreusslein.de/purchase" className='servOptTextModal'>
+                                {/* <a href="https://dialog.holland-kreusslein.de/purchase" className='servOptTextModal'>
                                     <p className='servOptTextBox'>Kaufverträge</p>
-                                </a>
+                                </a> */}
+                                <span className='servOptTextModal' onClick={handleClick}>
+                                    <p className='servOptTextBox'>Kaufverträge</p>
+                                </span>
                         </Grid>
                         <Grid item xs={12} sm={12}>         
                         <span className='servOptTextModal' onClick={handleClick}>

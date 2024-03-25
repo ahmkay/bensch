@@ -209,14 +209,14 @@ a {
 .sectionTitle {
   font-size: 34px !important;
   color: #000 !important;
-  margin: 10px 0px 10px 0px !important;
+  margin: 10px 0px 20px 0px !important;
   font-family:  "Roboto", Arial, Helvetica, sans-serif !important;
   font-weight: 300 !important;
 }
 
 .sectionTitle3 {
   font-size: 24px !important;
-  font-weight: 200 !important;
+  font-weight: 300 !important;
   color: #000 !important;
   margin: 0px 0px 20px 0px !important;
   font-family:  "Roboto", Arial, Helvetica, sans-serif !important;
@@ -224,7 +224,7 @@ a {
 
 .subtitleH3 {
   font-size: 28px !important;
-  margin: 0px 0px 10px 0px !important;
+  margin: 0px 0px 20px 0px !important;
   font-weight: 300 !important;
 }
 
@@ -237,6 +237,50 @@ p {
   font-weight: 200 !important;
   color: #000;
 }
+
+.MuiListItemText-primary {
+  font-family: "RobotoSerif", Arial, Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 200 !important;
+  color: #000;
+}
+.quoteInnerBox {
+  /* display: grid;
+  grid-template-rows: 40px 1fr 40px;
+  grid-template-columns: 1fr; */
+  display: block;
+  position: relative;
+}
+.quoteBox {
+  margin: 20px 0px 00px 0px;
+}
+.quoteText {
+  position: relative;
+  font-size: 24px !important;
+  color: #fff;
+  font-weight: 800;
+}
+.quoteSource {
+  position: relative;
+  font-size: 18px !important;
+  color: #fff;
+  font-weight: 300 !important;
+}
+.quoteIcon {
+  position: absolute;
+  height: 50px;
+  width: auto;
+  top: -50px;
+  left: -10px;
+}
+.quoteIcon.end {
+  transform: rotate(180deg);
+  top: auto;
+  left: auto;
+  bottom: -50px;
+  right: -10px;
+}
+
 
 .navbar {
   background-color: #fff !important;
@@ -377,6 +421,15 @@ p {
   background-size: cover;
   z-index: 0;
 }
+.imagesource {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #fff;
+  padding: 2px;
+  font-size: 10px;
+  z-index: 9;
+}
 
 .heroWrapperLayer {
   position: absolute;
@@ -471,6 +524,7 @@ p {
   font-family: "Roboto";
   font-weight: 400;
   letter-spacing: .45rem;
+  font-family: "RobotoSerif", Arial, Helvetica, sans-serif !important;
 }
 
 .HeroBox>h1>span {
@@ -737,6 +791,7 @@ p {
   margin: 0px;
   background-color: #9ab79b;
   text-decoration: none !important;
+  font-family: "Roboto", Arial, Helvetica, sans-serif !important;;
 }
 
 .servOptTextModal {
@@ -833,8 +888,12 @@ p {
 
 /* Text Sektion */
 .bannerSection {
-  background-color: #FAFAFA;
+  background-color: #9ab79b;
   padding: 0px 0px;
+}
+.bannerContainer {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .textBox {
@@ -941,6 +1000,8 @@ p {
   margin: 10px;
   text-align: center;
   color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif !important;
+  font-weight: 300 !important;
 }
 
 .contactFormTopGrid {
@@ -1106,6 +1167,7 @@ img.notarImg {
   position: relative;
   display: block;
   height: 100%;
+  min-height: 250px;
   overflow: hidden;
   box-shadow: 0px 0px 15px #0000001c;
 }

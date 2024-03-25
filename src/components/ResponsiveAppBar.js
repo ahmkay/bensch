@@ -29,8 +29,9 @@ function DrawerAppBar(props) {
       <Divider />
             {/* <NavLink to="/#leistungen" className='navItemDrawer'>Leistungen</NavLink>
             <NavLink to="/#kontakt" className='navItemDrawer'>Kontakt</NavLink> */}
-            <HashLink className='navItemDrawer' smooth to="/#leistungen">Leistungen</HashLink>        
+            <HashLink className='navItemDrawer' smooth to="/#leistungen">Tätigkeitsfelder</HashLink>        
             <HashLink className='navItemDrawer' smooth to="/#notare">Notar</HashLink>        
+            <HashLink className='navItemDrawer' smooth to="/karriere#">Karriere</HashLink>        
             <HashLink className='navItemDrawer' smooth to="/#kontakt">Kontakt</HashLink>       
     </Box>
   );
@@ -52,13 +53,14 @@ function DrawerAppBar(props) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" className='drawerTitle' sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }} >
-          <a href='/'> <img src="logo-small.png" className='brandLogo' /> </a>
+          <a href='/'> <img src="logo2-small.png" className='brandLogo' /> </a>
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }} className="navLinksBox">       
             {/* <NavLink to="/#leistungen">Leistungen</NavLink>
             <NavLink to="/#kontakt">Kontakt</NavLink> */}
-            <HashLink smooth to="/#leistungen">Leistungen</HashLink>        
-            <HashLink smooth to="/#notare">Notar</HashLink>        
+            <HashLink smooth to="/#leistungen">Tätigkeitsfelder</HashLink>        
+            <HashLink smooth to="/#notare">Notar</HashLink>    
+            <HashLink smooth to="/karriere#">Karriere</HashLink>       
             <HashLink smooth to="/#kontakt">Kontakt</HashLink>
           </Box>
           {/* <Box sx={{ display: { xs: 'none', sm: 'block' } }}>

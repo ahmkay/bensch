@@ -8,13 +8,14 @@ export default function Footer() {
         <Box className="Footer">
             <Container maxWidth="md" className="container FooterContainer">
                 <Box className="FooterLeft">
-                    <img src="logo-small.png" className='brandLogoFooter' />
+                    <img src="logo2-small.png" className='brandLogoFooter' />
                 </Box>
                 <Box className="FooterMLeft">
                     <Typography align='center' className='FooterSubTitle'>Informationen</Typography>
                     <HashLink className='FooterLink' style={{ textDecoration: 'none' }} smooth to="/#kontakt">Kontakt</HashLink>        
                     <HashLink className='FooterLink' style={{ textDecoration: 'none' }} smooth to="/#notare">Notare</HashLink>        
-                    <HashLink className='FooterLink' style={{ textDecoration: 'none' }} smooth to="/#leistungen">Leistungen</HashLink>        
+                    <HashLink className='FooterLink' style={{ textDecoration: 'none' }} smooth to="/#leistungen">Tätigkeitsfelder</HashLink>        
+                    <HashLink className='FooterLink' style={{ textDecoration: 'none' }} smooth to="/karriere#">Karriere</HashLink>     
                     <HashLink className='FooterLink' style={{ textDecoration: 'none' }} smooth to="/Impressum#">Impressum</HashLink>        
                     <HashLink className='FooterLink' style={{ textDecoration: 'none' }} smooth to="/Datenschutz#">Datenschutz</HashLink>        
                 </Box>

@@ -6,6 +6,7 @@ import Services from "./components/Services";
 import Info from "./components/Info";
 import Contact from "./components/Contact";
 import Imprint from "./components/Imprint";
+import Carrer from "./components/Carrer";
 import Privacy from "./components/Privacy";
 import Security from "./components/Security";
 import Footer from "./components/Footer";
@@ -18,10 +19,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Notar" element={<Notar />} />
-        <Route path="/Leistungen" element={<Services />} />
+        <Route path="/Felder" element={<Services />} />
         <Route path="/Info" element={<Info />} />
         <Route path="/Kontakt" element={<Contact />} />
         <Route path="/Impressum" element={<Imprint />} />
+        <Route path="/Karriere" element={<Carrer />} />
         <Route path="/Datenschutz" element={<Privacy />} />
         <Route path="/Sicherheit" element={<Security />} />
 
