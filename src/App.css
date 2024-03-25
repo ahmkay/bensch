@@ -220,6 +220,7 @@ a {
   color: #000 !important;
   margin: 0px 0px 20px 0px !important;
   font-family:  "Roboto", Arial, Helvetica, sans-serif !important;
+  line-height: 1.5 !important;
 }
 
 .subtitleH3 {
@@ -357,7 +358,7 @@ p {
   background-color: #fff;
   color: #000;
   margin: 0px !important;
-  padding: 15px !important;
+  padding: 15px 0px !important;
 }
 
 .navItemDrawer {
@@ -413,7 +414,7 @@ p {
     min-height: 500px;
     max-height: 800px;
   background-color: #fff;
-  background-image: url("../public/background.jpg");
+  background-image: url("../public/background_tall.jpg");
   /* src -> https://commons.wikimedia.org/wiki/File:Neuruppin_St._Trinitatis-01.jpg */
   background-position: center;
   background-repeat: no-repeat;
@@ -541,7 +542,7 @@ p {
   font-weight: 300;
   margin-top: 20px;
   margin-top: 0px;
-  letter-spacing: .45rem;
+  letter-spacing: .2rem;
 }
 
 .HeroBox>p {
@@ -1230,7 +1231,7 @@ img.notarImg {
   }
 
   .sectionTitle {
-    font-size: 28px !important;
+    font-size: 30px !important;
   }
 
   .servOptItem {
@@ -1318,7 +1319,7 @@ img.notarImg {
     grid-row-gap: 40px;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr;
-    margin: 40px auto 20px;
+    margin: 30px auto 20px;
   }
 }
 @media (max-width: 600px) {
@@ -1326,7 +1327,7 @@ img.notarImg {
     text-align: left;
 }
   .sectionTitle3 {
-    font-size: 20px !important;
+    font-size: 24px !important;
   }
   .HeroLogoImg {
     width: 50vw;
@@ -1349,7 +1350,7 @@ img.notarImg {
   margin-right: 0px !important;
 }
 .brandLogoFooter {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
   .HeroBox>h1 {
     font-size: 1.6rem;
@@ -1397,6 +1398,19 @@ img.notarImg {
 }
 }
 @media (max-width: 500px) {
+  .brandLogoFooter {
+    height: 70px;
+  }
+  .quoteText {
+    font-size: 18px !important;
+}
+.quoteIcon {
+  height: 40px;
+  top: -40px;
+}
+.quoteIcon.end {
+  bottom: -40px;
+}
   .notarInnerBox {
     grid-template-rows: 300px auto;
     grid-template-columns: 1fr;
@@ -1409,6 +1423,7 @@ img.notarImg {
     align-content: center;
     justify-content: center;
     align-items: center;
+    padding: 20px 0px;
   }
   .FooterRight, .FooterMLeft, .FooterMRight {
     display: flex;
