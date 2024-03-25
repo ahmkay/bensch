@@ -110,8 +110,8 @@ const ScrollAnimation = () => {
 
                                         <Grid container item xs={12} sm={12} spacing={0}>
                                             <Box className="textBoxInner">
-                                                <Typography variant='h3' className='subtitleH3'>Ich heißen Sie herzlich willkommen in meinem Notarbüro</Typography>
-                                                <Typography variant='body1'>Als Notar bekleide ich ein öffentliches Amt und bin zur Neutralität verpflichtet. Ich bin Ihr unparteiischen Berater, auch in kom­plizierten und folgenreichen Rechtsangelegenheiten. Ich sorgen dafür, dass Sie die Tragweite Ihrer Erklärungen und Ihres Handelns verstehen, und unterstütze Sie dabei, Ihre Anliegen rechtlich angemessen umzusetzen.</Typography>
+                                                <Typography variant='h3' className='subtitleH3'>Ich heiße Sie herzlich willkommen in meinem Notarbüro</Typography>
+                                                <Typography variant='body1'>Als Notar bekleide ich ein öffentliches Amt und bin zur Neutralität verpflichtet. Ich bin Ihr unparteiischer Berater, auch in kom­plizierten und folgenreichen Rechtsangelegenheiten. Ich sorge dafür, dass Sie die Tragweite Ihrer Erklärungen und Ihres Handelns verstehen, und unterstütze Sie dabei, Ihre Anliegen rechtlich angemessen umzusetzen.</Typography>
                                             </Box>
                                         </Grid>
 
@@ -124,7 +124,7 @@ const ScrollAnimation = () => {
 
                             <Box className="bannerSection section" id="info">
                                 <Container maxWidth="md" className="leistungenContainer section" id="leistungen">
-                                    <Typography variant='h2' className='sectionTitle fadeInOpac'>Unsere Leistungen</Typography>
+                                    <Typography variant='h2' className='sectionTitle fadeInOpac'>Meine Leistungen</Typography>
                                     <Typography variant='h3' className='sectionTitle3 fadeInOpac'>Hier gelangen Sie zur Digitalen Notarplattform (DiNo)</Typography>
                                     <Grid container justifyContent="center" spacing={2} className="leistungenGrid">
                                         <Grid item xs={6} sm={3}>
@@ -149,13 +149,13 @@ const ScrollAnimation = () => {
                                             </Box>
                                         </Grid>
                                     </Grid>
-                                    <Typography variant='body1'>Haben Sie Fragen? Nehmen Sie <a href="#kontakt">Kontakt</a> zu uns auf!</Typography>
+                                    <Typography variant='body1'>Haben Sie Fragen? Nehmen Sie <a href="#kontakt">Kontakt</a> zu mir auf!</Typography>
                                 </Container>
                             </Box>
 
                             <Container maxWidth="md" className="container section" id="notare">
                                 <Typography variant='h2' className='sectionTitle'>
-                                    Ihre Notare
+                                    Ihr Notar
                                 </Typography>
 
                                 <Grid container justifyContent="center" spacing={2} className="notareGrid">
@@ -168,7 +168,7 @@ const ScrollAnimation = () => {
                                         </Box> 
                                         <Box>
                                             <Typography variant='h3' className='subtitleH3'>Notar Thomas Bensch</Typography>
-                                            <Typography variant='body1' paragraph>Matthias Sören Holland ist seit dem 1. Juli 2023 Notar auf Lebenszeit in Oranienburg und Partner der Sozietät der Notare Holland & Kreußlein. Er ist der Amtsnachfolger der Notarin a.D. Martina Fritzlar. Beglaubigungen sowie ausgewählte Beurkundungen können auch in englischer oder französischer Sprache vorgenommen werden.</Typography>
+                                            <Typography variant='body1' paragraph>Herr Bensch ist seit dem 1. April 2024 Notar auf Lebenszeit in Neuruppin. Er ist der Amtsnachfolger des Notars a.D. Bodo Bartsch. Beglaubigungen sowie ausgewählte Beurkundungen können auch in englischer oder französischer Sprache vorgenommen werden.</Typography>
                                             <Button className='btnSecondary' onClick={() => toggleVisibility('elementToToggle1')}>{`${isVisible5 ? 'Einklappen' : 'Mehr zur Person'}`}</Button>
                                         </Box>
                                         
@@ -176,10 +176,8 @@ const ScrollAnimation = () => {
                                         
                                         <Box id="elementToToggle1" className={`notarBodyTextWrapper ${isVisible5 ? 'visible' : ''}`}>
                                         <Typography variant='body1' paragraph className='notarBodyText'>
-Nach dem Studium der Politik- und Verwaltungswissenschaften und des Öffentlichen Rechts an der Universität Potsdam sowie der Rechtswissenschaft an der Humboldt-Universität zu Berlin absolvierte Matthias Sören Holland das Rechtsreferendariat am Kammergericht in Berlin, u.a. mit Stationen am Bundesverfassungsgericht und im Bundesministerium des Innern. Seit 2012 war er Stipendiat der Studienstiftung des Deutschen Volkes.<br /><br />
-2019 wurde er in den Notaranwärterdienst des Landes Brandenburg aufgenommen und war dort zunächst dem Notar Karsten Strüben in Strausberg zur Ausbildung zugewiesen. 2021 wurde er an das Deutsche Notarinstitut (DNotI) in Würzburg abgeordnet. Darauf folgten weitere Zuweisungen nach Prenzlau, Königs Wusterhausen, Eberswalde und Oranienburg.<br /><br />
-
-Neben seiner Notartätigkeit ist Matthias Holland u.a. als freier Referent am Deutschen Notarinstitut (DNotI) in Würzburg tätig und ist Vorstandsmitglied und Schriftführer des Förderkreises des Notarinstituts der Humboldt-Universität zu Berlin. Zudem ist er an etlichen Veröffentlichungen im öffentlichen Recht und zu notarrechtlichen Themen beteiligt.</Typography>
+                                        Nach dem Studium der Politik- und Verwaltungswissenschaften und des Öffentlichen Rechts an einer Universität in Potsdam sowie der Rechtswissenschaft an einer Universität in Berlin absolvierte Person A das Rechtsreferendariat am Kammergericht in Berlin, u.a. mit Stationen am höchsten Gericht und im Bundesministerium des Innern. Seit 2012 war er Stipendiat einer deutschen Studienförderung.<br /><br />
+2019 wurde er in den Notaranwärterdienst des Landes Brandenburg aufgenommen und war dort zunächst dem Notar B in einer Stadt zur Ausbildung zugewiesen. 2021 wurde er an ein Institut in Würzburg abgeordnet. Darauf folgten weitere Zuweisungen nach verschiedenen Städten.<br /><br /></Typography>
                                         </Box>
                                     
 
@@ -192,17 +190,17 @@ Neben seiner Notartätigkeit ist Matthias Holland u.a. als freier Referent am De
 
                             <Container maxWidth="md" className="container section" id="kontakt">
                                 <Typography variant='h2' className='sectionTitle'>
-                                    Kontaktieren Sie uns!
+                                    Kontaktieren Sie mich!
                                 </Typography>
                                 <Contactform />
                                 <br /><br />
                                 <Typography variant='body1' paragraph>
-                                    Hier finden Sie uns:
+                                    Hier finden Sie mich:
                                 </Typography>
                                 <Box className="contactMap">
-                                    <iframe width="100%" height="400px" frameBorder="0" allowFullScreen src="//umap.openstreetmap.de/de/map/notar-kreuslein-holland_47149?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=false&onLoadPanel=none&captionBar=false&datalayers=184102"></iframe>
+                                    <iframe width="100%" height="400px" frameBorder="0" allowFullScreen src="//umap.openstreetmap.de/de/map/notar_bensch_56016?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=false&onLoadPanel=none&captionBar=false&datalayers=184102"></iframe>
                                 </Box>
-                                <Typography variant='body1' paragraph className="contactMapRouteLink">Einen Routenplaner finden sie <a href="https://www.google.com/maps/dir//Notare+Holland+%26+Kreu%C3%9Flein,+Prenzlauer+Str.+11,+16515+Oranienburg/@52.7596784,13.2514147,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4164e8afdba0e241:0x9b19020e624be46c!2m2!1d13.2539073!2d52.7596041!3e0?hl=en&entry=ttu" target="_blank">hier</a>.</Typography>
+                                <Typography variant='body1' paragraph className="contactMapRouteLink">Einen Routenplaner finden sie <a href="https://www.google.com/maps/dir//Pr%C3%A4sidentenstra%C3%9Fe+47,+Neuruppin/@52.9228135,12.7635872,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47a93daef2b5288f:0x8b0754e2b416faa6!2m2!1d12.8047865!2d52.9228206!3e0?hl=en&entry=ttu" target="_blank">hier</a>.</Typography>
 
                             </Container>
 

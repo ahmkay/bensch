@@ -47,7 +47,7 @@ export default function Contactform() {
 
                     <Grid item xs={12} sm={4}>
                         <Box className="contactTopItem">
-                            <a href="mailto:info@holland-kreusslein.de">
+                            <a href="mailto:info@bensch-notar.de">
                                 <MailOutlineIcon className='contactTopIcon' />
                                 <p className='contactTopText'>info@bensch-notar.de</p>
                             </a>
@@ -56,7 +56,7 @@ export default function Contactform() {
 
                     <Grid item xs={12} sm={4}>
                         <Box className="contactTopItem">
-                            <a href="https://goo.gl/maps/rX1UDiJypT1uJF9WA" target="_blank">
+                            <a href="https://maps.app.goo.gl/qMocKrXuwTDsk9Zi7" target="_blank">
                                 <LocationOnOutlinedIcon className='contactTopIcon' />
                                 <p className='contactTopText'>Präsidentenstraße 47<br />16816 Neuruppin</p>
                             </a>
@@ -65,7 +65,7 @@ export default function Contactform() {
 
                     <Grid item xs={12} sm={4}>
                         <Box className="contactTopItem">
-                            <a href="tel:+0493301801138">
+                            <a href="tel:+493391458445">
                                 <LocalPhoneOutlinedIcon className='contactTopIcon' />
                                 <p className='contactTopText'>03391 - 458445</p>
                             </a>
@@ -98,7 +98,7 @@ export default function Contactform() {
 
                     <Grid container spacing={2} direction="row" justifyContent="center" alignItems="center" alignContent="center" wrap="wrap" className='contactFormTopGrid'>
                         <Grid item xs={12} sm={12}>
-                            <TextField id="nachricht" required name="message" label="Ihre Nachricht an uns" multiline rows={4} variant="filled" className='contactInput' />
+                            <TextField id="nachricht" required name="message" label="Ihre Nachricht an mich" multiline rows={4} variant="filled" className='contactInput' />
                         </Grid>
                     </Grid>
 

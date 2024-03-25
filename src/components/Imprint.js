@@ -67,7 +67,7 @@ const Imprint = () => {
 
           <Typography variant='h2' className='sectionTitle3 marginTop'>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</Typography>
           <Typography variant='body1' className='sectionText'>
-          Thomaws Bensch
+          Thomas Bensch
           </Typography>
 
 
