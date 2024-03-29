@@ -105,8 +105,7 @@ const ScrollAnimation = () => {
                                 <Box className="textBox">
                                     <Box className="textBoxInner">
                                         <Typography variant='h3' className='subtitleH3'>Mein Team und ich heißen Sie herzlich willkommen</Typography>
-                                        <Typography variant='body1'>Der Notar bekleidet ein öffentliches Amt und ist zur Neutralität und Verschwiegenheit verpflichtet. Er ist Teil der vorsorgenden Rechtspflege, unabhängig, unparteiisch und sorgt durch sichere Vertragsgestaltung dafür, dass spätere Rechtsstreitigkeiten vermieden werden. Der Notar hat dafür Sorge zu tragen, dass unerfahrene Vertragsbeteiligte geschützt werden.<br /><br />
-                                            Gern unterstütze ich Sie bei der Ausgestaltung und Umsetzung Ihrer Rechtsangelegenheiten.</Typography>
+                                        <Typography variant='body1'>Der Notar bekleidet ein öffentliches Amt und ist zur Neutralität und Verschwiegenheit verpflichtet. Er ist Teil der vorsorgenden Rechtspflege, unabhängig, unparteiisch und trägt durch eine sichere Vertragsgestaltung zur Vermeidung von Rechtsstreitigkeiten bei.<br /><br/>Gern unterstütze ich Sie bei der Ausgestaltung und Umsetzung Ihrer Rechtsangelegenheiten.</Typography>
                                     </Box>
                                 </Box>
                             </Container>

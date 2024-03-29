@@ -43,27 +43,25 @@ export default function ModalImmo() {
                     <Typography id="modal-modal-title" variant="h6" component="h2" className='modalTitle'>
                         Immobilien
                     </Typography>
-                    <Typography id="modal-modal-description" sx={{ mt: 2 }} className='modalText'>
+                    {/* <Typography id="modal-modal-description" sx={{ mt: 2 }} className='modalText'>
                         Welche Art Service benötigen Sie?
-                    </Typography>
+                    </Typography> */}
 
                     <Grid container justifyContent="center" spacing={2} className='modalServiceGrid'>
-                        <Grid item xs={12} sm={12}>         
-                                {/* <a href="https://dialog.holland-kreusslein.de/purchase" className='servOptTextModal'>
+                        {/* <Grid item xs={12} sm={12}>         
+                                <a href="https://dialog.holland-kreusslein.de/purchase" className='servOptTextModal'>
                                     <p className='servOptTextBox'>Kaufverträge</p>
-                                </a> */}
-                                <span className='servOptTextModal' onClick={handleClick}>
-                                    <p className='servOptTextBox'>Kaufverträge</p>
-                                </span>
-                        </Grid>
+                                </a>                               
+                        </Grid> */}
                         <Grid item xs={12} sm={12}>         
-                        <span className='servOptTextModal' onClick={handleClick}>
+                        {/* <span className='servOptTextModal' onClick={handleClick}>
                                     <p className='servOptTextBox'>Schenken & vorweggenommene Erbfolge</p>
-                                </span>
+                                </span> */}
+                                <p>Beim Kauf von Immobilien verhandeln in der Regel zwei Parteien den Kaufvertrag. Gerne unterstütze ich Sie dabei. Bitte nutzen Sie dafür unser  <a href="/#kontakt" onClick={handleClose}>Kontaktformular</a>.</p>
                         </Grid>
-                        <Grid item xs={12} sm={12} className='servOptInfo' id="servOptInfoImmo">         
+                        {/* <Grid item xs={12} sm={12} className='servOptInfo' id="servOptInfoImmo">         
                             <p>Dieser Service ist bisher noch nicht online verfügbar. Nutzen sie hierfür ganz einfach unser <a href="/#kontakt" onClick={handleClose}>Kontaktformular</a>.</p>
-                        </Grid>
+                        </Grid> */}
                     </Grid>
 
                 </Box>

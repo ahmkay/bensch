@@ -44,27 +44,28 @@ export default function ModalImmo() {
           <Typography id="modal-modal-title" variant="h6" component="h2" className='modalTitle'>
             Unternehmen
           </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }} className='modalText'>
+          {/* <Typography id="modal-modal-description" sx={{ mt: 2 }} className='modalText'>
             Welche Art Service benötigen Sie?
-          </Typography>
+          </Typography> */}
 
           <Grid container justifyContent="center" spacing={2} className='modalServiceGrid'>
-            <Grid item xs={12} sm={12}>
-              {/* <a href="https://dialog.holland-kreusslein.de/founding" className='servOptTextModal'>
+            {/* <Grid item xs={12} sm={12}>
+              <a href="https://dialog.holland-kreusslein.de/founding" className='servOptTextModal'>
                 <p className='servOptTextBox'>Gründung</p>
-              </a> */}
+              </a>
               <span className='servOptTextModal' onClick={handleClick}>
                 <p className='servOptTextBox'>Gründung</p>
               </span>
-            </Grid>
+            </Grid> */}
             <Grid item xs={12} sm={12}>
-              <span className='servOptTextModal' onClick={handleClick}>
+              {/* <span className='servOptTextModal' onClick={handleClick}>
                 <p className='servOptTextBox'>Umorganisation & Verkauf</p>
-              </span>
+              </span> */}
+               <p>Gerne unterstütze ich Sie bei allen notariellen Angelegenheiten rund um ihr Unternehmen. Bitte nutzen Sie dafür einfach unser  <a href="/#kontakt" onClick={handleClose}>Kontaktformular</a>.</p>
             </Grid>
-            <Grid item xs={12} sm={12} className='servOptInfo' id="servOptInfoUntern">
+            {/* <Grid item xs={12} sm={12} className='servOptInfo' id="servOptInfoUntern">
               <p>Dieser Service ist bisher noch nicht online verfügbar. Nutzen sie hierfür ganz einfach unser <a href="/#kontakt" onClick={handleClose}>Kontaktformular</a>.</p>
-            </Grid>
+            </Grid> */}
           </Grid>
 
         </Box>

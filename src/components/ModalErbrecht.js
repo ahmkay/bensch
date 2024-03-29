@@ -44,27 +44,28 @@ export default function ModalImmo() {
                     <Typography id="modal-modal-title" variant="h6" component="h2" className='modalTitle'>
                         Erbrecht
                     </Typography>
-                    <Typography id="modal-modal-description" sx={{ mt: 2 }} className='modalText'>
+                    {/* <Typography id="modal-modal-description" sx={{ mt: 2 }} className='modalText'>
                         Welche Art Service benötigen Sie?
-                    </Typography>
+                    </Typography> */}
 
                     <Grid container justifyContent="center" spacing={2} className='modalServiceGrid'>
-                        <Grid item xs={12} sm={12}>
+                        {/* <Grid item xs={12} sm={12}>
                             <span className='servOptTextModal' onClick={handleClick}>
                                 <p className='servOptTextBox'>Testamente & Erbverträge</p>
                             </span>
-                        </Grid>
+                        </Grid> */}
                         <Grid item xs={12} sm={12}>
                             {/* <a href="https://dialog.holland-kreusslein.de/inherit" className='servOptTextModal'>
                                 <p className='servOptTextBox'>Erbscheinsanträge </p>
                             </a> */}
-                            <span className='servOptTextModal' onClick={handleClick}>
+                            {/* <span className='servOptTextModal' onClick={handleClick}>
                                 <p className='servOptTextBox'>Erbscheinsanträge</p>
-                            </span>
+                            </span> */}
+                            <p>Gerne unterstütze ich Sie bei allen Themen rund um das Erbrecht. Bitte nutzen Sie dafür einfach unser  <a href="/#kontakt" onClick={handleClose}>Kontaktformular</a>.</p>
                         </Grid>
-                        <Grid item xs={12} sm={12} className='servOptInfo' id="servOptInfoErb">
+                        {/* <Grid item xs={12} sm={12} className='servOptInfo' id="servOptInfoErb">
                             <p>Dieser Service ist bisher noch nicht online verfügbar. Nutzen sie hierfür ganz einfach unser <a href="/#kontakt" onClick={handleClose}>Kontaktformular</a>.</p>
-                        </Grid>
+                        </Grid> */}
                     </Grid>
 
                 </Box>
