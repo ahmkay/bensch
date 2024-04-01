@@ -198,6 +198,13 @@ a {
   text-decoration: none;
 }
 
+ul > li {
+  font-size: 16px !important;
+    font-weight: 200 !important;
+    color: #000;
+    font-family: "RobotoSerif", Arial, Helvetica, sans-serif !important;
+}
+
 .textaccent {
   color: #9eafb7;
 }

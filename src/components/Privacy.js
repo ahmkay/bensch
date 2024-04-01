@@ -1,5 +1,5 @@
 import logo from '../logo.svg';
-import { Typography, Paper, AppBar, Button, Box, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Link, Toolbar, Container } from '@mui/material';
+import { Typography, List, ListItem, Container } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 import ResponsiveAppBar from './ResponsiveAppBar';
 import Contactform from './Contactform';
@@ -157,6 +157,85 @@ Grundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO, der die Ver
           Unser Internetauftritt integriert Inhalte anderer Anbieter. Dies können reine Content-Elemente (z.B. Nachrichten, Neuigkeiten), aber auch Widgets (Funktionen, wie z.B. Buchungssysteme) oder z.B. Schriften und technische Bibliotheken sein. Dazu gehören auch Google Fonts. Aus technischen Gründen erfolgt dies, indem diese Inhalte vom Browser von anderen Servern geladen werden. In diesem Zusammenhang werden die aktuell von Ihrem Browser verwendete IP und der verwendete Browser des anfragenden Systems übermittelt. Bitte beachten Sie diesbezüglich die jeweiligen Datenschutzerklärungen der Drittanbieter.          
           </Typography>
 
+          
+          <Typography variant='h2' className='sectionTitle3 marginTop'>6. Datenschutz im Notarbüro</Typography>
+          <Typography variant='body1' className='sectionText'>
+          Die Vertraulichkeit und der Schutz der Privatsphäre der Mandanten haben im Notarbüro einen besonders hohen Stellenwert. Wir möchten Sie im Folgenden darüber in Kenntnis setzen, welche personenbezogenen Daten wir nach der EU-Datenschutz-Grundverordnung (DSGVO) verarbeiten. Der Information können Sie auch entnehmen, welche Rechte Sie bezüglich Ihrer Daten haben.        <br /><br />
+          </Typography>
+
+          
+
+
+
+
+
+
+
+
+          <Typography variant='body1' className='sectionText'><b>Verantwortlichkleit für die Datenverarbeitung</b></Typography>
+          <Typography variant='body1' className='sectionText'>Verantwortlicher im Sinne der DSGVO für die Verarbeitung der personenbezogenen Daten ist:<br/><br/>
+          Notar Thomas Bensch, Präsidentenstraße 47, 16816 Neuruppin<br/>
+Tel.: 03391-458445, Fax: 03391-458446, E-Mail: info@bensch-notar.de<br/><br/>
+Der bestellte Datenschutzbeauftragte ist die GNotDS Gesellschaft für notariellen Datenschutz mit beschränkter Haftung (GNotDS), Ehrensteinstraße 33, 04105 Leipzig, E-Mail: datenschutz@gnotds.de. <br /><br /></Typography>
+
+          <Typography variant='body1' className='sectionText'><b>Zweck der Datenverarbeitung</b></Typography>
+          <Typography variant='body1' className='sectionText'>Wir verarbeiten bei der Wahrnehmung der uns gesetzlich übertragenen Aufgaben personenbezogene Daten. Diese Datenverarbeitung erfolgt auf Ihre Anfrage hin und ist für die angemessene Bearbeitung Ihres Anliegens sowie zur Erfüllung von Informations- und Antragspflichten erforderlich. <br /><br /></Typography>
+
+          <Typography variant='body1' className='sectionText'><b>Kategorien personenbezogener Daten und Rechtsgrundlagen für deren Verarbeitung</b></Typography>
+          <Typography variant='body1' className='sectionText'>Personenbezogene Daten, die von uns verarbeitet werden, sind alle Daten, die auf Sie persönlich 
+beziehbar sind. Dazu zählen unter anderem:<br />
+</Typography>
+
+<ul className='sectionText'>
+  <li>allgemeine Personendaten: Name, Geburtsdatum und Alter, Geschlecht, Geburtsort, Familienstand, Anschrift, Staatsangehörigkeit, E-Mail-Adresse, Telefonnummer etc.;</li>
+  <li>Kennnummern: Personalausweis- und Passnummer, Steueridentifikationsnummer, Führerschein, Kfz-Kennzeichen etc.;</li>
+  <li>Bankdaten: Kreditinstitut, Bankverbindung, Kreditinformationen etc.;</li>
+  <li>Vermögensverhältnisse: Immobilieneigentum, sonstige Rechte an Grundstücken, Gesellschaftsbeteiligungen, Versicherungen, Einkommen, Renteninformationen, sonstiges bewegliches Vermögen etc.</li>
+</ul>
+
+<Typography variant='body1' className='sectionText'>Für die Verarbeitung personenbezogener Daten ist die Rechtsgrundlage Art. 6 Abs. 1 lit. c) und e) DSGVO, § 5 Abs. 1 BbgDSG i.V.m. dem notariellen Berufsrecht (insbesondere BNotO, BeurkG und DONot).</Typography>
+
+<Typography variant='body1' className='sectionText'>Art. 6 Abs. 1 lit. c) DSGVO erlaubt die Datenverarbeitung, wenn diese zur Erfüllung rechtlicher Verpflichtungen des Verantwortlichen erforderlich ist. Art. 6 Abs. 1 lit. e) DSGVO gestattet die Datenverarbeitung zur Wahrnehmung einer Aufgabe im öffentlichen Interesse und die Verarbeitung in Ausübung öffentlicher Gewalt. </Typography>
+
+<Typography variant='body1' className='sectionText'>Darüber hinaus können für ein ordnungsgemäßes Verfahren nach dem BeurkG besondere Kategorien 
+von personenbezogenen Daten verarbeitet werden, z.B. Angaben zu Behinderungen (Seh-, Hör-, Schreibbehinderungen), sexueller Orientierung und Gesundheitsdaten. Rechtsgrundlage für die Verarbeitung dieser besonderen Kategorien von Daten ist Art. 9 Abs. 2 lit. g) DSGVO, § 22 Abs. 1 Nr. 2 lit. a) BDSG i.V.m. §§ 11, 17, 22 ff., 28 BeurkG.</Typography>
+
+<Typography variant='body1' className='sectionText'>Weiterhin erheben wir auch bei öffentlich zugänglichen Quellen personenbezogene Daten, z.B. Grundstücksdaten vom Grundbuchamt und Registerdaten vom Handelsregister. Ferner erheben wir Daten aus sonstigen Quellen z.B. bei Gläubigern. Dies geschieht jedoch nur auf Grund vorheriger Veranlassung durch Sie und zur Bearbeitung Ihres konkreten Anliegens bzw. zur Erfüllung von gesetzlichen Pflichten.<br /><br /></Typography>
+
+
+<Typography variant='body1' className='sectionText'><b>Empfänger Ihrer Daten</b></Typography>
+          <Typography variant='body1' className='sectionText'>Wir übermitteln Ihre personenbezogenen Daten nur dann an Dritte, wenn dies gesetzlich erlaubt und erforderlich ist oder Sie hierin eingewilligt haben. <br /> <br />
+          Empfänger Ihrer personenbezogenen Daten können vor allem sein: das Grundbuchamt, das Handelsregister, das Zentrale Testamentsregister, das Zentrale Vorsorgeregister, das Finanzamt, die Ländernotarkasse, andere Notare, Kreditinstitute und sonstige private Dritte. Die Übermittlung an private Dritte geschieht nur zur Erfüllung Ihres konkreten Anliegens und nur auf Ihre Veranlassung. <br /> <br />
+          Weiterhin erfolgt die Übermittlung von Daten an weitere berechtigte Empfänger. Dazu gehören insbesondere von uns eingesetzte Dienstleister, wenn diese als Auftragsverarbeiter nach Art. 28 DSGVO beauftragt werden. Auftragsverarbeiter in diesem Sinne sind z.B. der IT-Systembetreuer, die Notarsoftwareanbieter, die Finanzbuchhaltung. <br /><br /></Typography>
+
+
+<Typography variant='body1' className='sectionText'><b>Speicherung Ihrer Daten</b></Typography>
+          <Typography variant='body1' className='sectionText'>Wir bewahren Ihre Daten entsprechend den gesetzlichen Aufbewahrungsfristen auf. Die Aufbewahrungsfristen richten sich primär nach der DONot sowie der AO und sind von dem Verarbeitungszweck abhängig. So beträgt z.B. die Aufbewahrungsfrist für Buchungsbelege zehn Jahre ab Empfang bzw. Versand der Korrespondenz und Erfassung in der Finanzbuchhaltung, (§ 257 HGB i.V.m. § 147 AO) oder 100 Jahre bei einem Vermerk über Verfügungen von Todes wegen gemäß § 20 Abs. 1 DONot.<br /><br /></Typography>
+
+
+<Typography variant='body1' className='sectionText'><b>Ihre Rechte</b></Typography>
+          <Typography variant='body1' className='sectionText'>Sie haben gegenüber uns folgende Rechte hinsichtlich der Sie betreffenden personenbezogenen Daten:</Typography>
+
+
+<ul className='sectionText'>
+  <li>Auskunft über Sie betreffende personenbezogene Daten (Art. 15 DSGVO);</li>
+  <li>Berichtigung Sie betreffende unrichtige personenbezogene Daten (Art. 16 DSGVO);</li>
+  <li>Löschung personenbezogener Daten (Art. 17 DSGVO);</li>
+  <li>Einschränkung der Verarbeitung personenbezogener Daten (Art. 18 DSGVO);</li>
+  <li>Widerspruch gegen die Verarbeitung personenbezogener Daten (Art. 21 DSGVO).</li>
+</ul>
+
+
+<Typography variant='body1' className='sectionText'>Die vorstehenden Rechte gelten nur insoweit, als das diesen nicht die notarielle Verschwiegenheitsverpflichtung gemäß § 18 BNotO entgegensteht. Die Verarbeitung Ihrer Daten erfolgt auf der Basis von gesetzlichen Regelungen.</Typography>
+
+<Typography variant='body1' className='sectionText'>Nur in Ausnahmefällen benötigen wir Ihre Einwilligung. In diesen Fällen haben Sie zusätzlich das Recht, die Einwilligung für die zukünftige Verarbeitung zu widerrufen (Art. 7 Abs. 3 DSGVO). Die bisherige Rechtmäßigkeit der Verarbeitung wird durch diesen Widerruf nicht berührt.</Typography>
+
+<Typography variant='body1' className='sectionText'>Sie haben ferner das Recht, sich an eine Aufsichtsbehörde für den Datenschutz zu wenden, wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten nicht rechtmäßig erfolgt.</Typography>
+
+<Typography variant='body1' className='sectionText'>Die Anschrift der für uns zuständigen Aufsichtsbehörde lautet: Landesbeauftragte für den Datenschutz und für das Recht auf Akteneinsicht, Stahnsdorfer Damm 77, 14532 Kleinmachnow.</Typography>
+
+<Typography variant='body1' className='sectionText'>Bei Fragen zur Verarbeitung Ihrer Daten stehen wir Ihnen gerne zur Verfügung.<br/><br/>
+Ihr Notarbüro</Typography>
 
         </Container>
 
