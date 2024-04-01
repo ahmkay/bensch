@@ -16,7 +16,7 @@ export default function Contactform() {
         e.preventDefault();
         document.getElementById("submitBtn").innerHTML = "senden ..."
         emailjs
-            .sendForm('service_ynzzblu', 'template_7scwbng', form.current, {
+            .sendForm('service_ynzzblu', 'template_vqdmph4', form.current, {
                 publicKey: 'TUGAxP2BuuAojqnq3',
             })
             .then(
