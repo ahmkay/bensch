@@ -12,7 +12,7 @@ const Imprint = () => {
           <Typography variant='h1' className='sectionTitle'>Karriere</Typography>
 
           <Typography variant='body1' className='sectionText'>
-          Zum Auf- und Ausbau eines neues Teams suchen wir für das Notarbüro ab dem 01. April 2024 zuverlässige, kommunikative und freundliche Mitarbeiter*innen (m/w/d) in Voll- oder Teilzeit.
+          Zum Auf- und Ausbau eines neuen Teams suchen wir für das Notarbüro ab dem 01. April 2024 zuverlässige, kommunikative und freundliche Mitarbeiter*innen (m/w/d) in Voll- oder Teilzeit.
           </Typography>
           <Typography variant='body1' className='sectionText'>
           Zu Ihren Aufgaben gehört die Erstellung, der Vollzug und die Abwicklung von notariellen Urkunden sowie die Kommunikation mit Mandanten, Dritten und Behörden sowie die Übernahme von organisatorischen Tätigkeiten.
