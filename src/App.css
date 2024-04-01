@@ -1154,7 +1154,8 @@ div#notare {
   align-items: flex-end;
   column-gap: 30px;
   grid-template-rows: 1fr;
-  grid-template-columns: 2fr 4fr;
+  grid-template-columns: 1fr;
+  /* grid-template-columns: 2fr 4fr; */
   /* grid-template-rows: 1fr;
   grid-template-columns: 32fr 68fr; */
 }
@@ -1173,7 +1174,8 @@ img.notarImg {
 }
 .notarImgWrapper {
   position: relative;
-  display: block;
+  /* display: block; */
+  display: none;
   height: 100%;
   min-height: 250px;
   overflow: hidden;
@@ -1419,9 +1421,9 @@ img.notarImg {
   bottom: -40px;
 }
   .notarInnerBox {
-    grid-template-rows: 300px auto;
+    /* grid-template-rows: 300px auto;
     grid-template-columns: 1fr;
-    row-gap: 30px;
+    row-gap: 30px; */
   }
   .FooterContainer {
     display: flex !important;

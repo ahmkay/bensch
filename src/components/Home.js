@@ -135,7 +135,7 @@ const ScrollAnimation = () => {
                             <Box className="section" id="info">
                                 <Container maxWidth="md" className="leistungenContainer section" id="leistungen">
                                     <Typography variant='h2' className='sectionTitle fadeInOpac'>Meine Tätigkeitsfelder</Typography>
-                                    <Typography variant='h3' className='sectionTitle3 fadeInOpac'>Hier gelangen Sie zur Digitalen Notarplattform (DiNo)</Typography>
+                                    {/* <Typography variant='h3' className='sectionTitle3 fadeInOpac'>Hier gelangen Sie zur Digitalen Notarplattform (DiNo)</Typography> */}
                                     <Typography variant='body1'>
                                     Mein Team und ich bieten Ihnen notarielle Leistungen in den verschiedensten Bereichen wie beispielsweise Immobilien, Erbe, Unternehmen, Vorsorge, Schenkungen, Familie und vieles mehr. Kontaktieren Sie uns gern.
                                     </Typography>
@@ -182,7 +182,7 @@ const ScrollAnimation = () => {
                                                 <img src='Thomas-Bensch_thumbnail.jpg' className='notarImg' />
                                             </Box>
                                             <Box>
-                                                <Typography variant='h3' className='subtitleH3'>Notar Thomas Bensch</Typography>
+                                                <Typography variant='h3' className='subtitleH3'>Thomas Bensch</Typography>
                                                 <Typography variant='body1' paragraph>Herr Bensch ist der Amtsnachfolger des Notars a.D. Bodo Bartsch, dessen Akten er auch verwahrt.</Typography>
                                                 <Button className='btnSecondary' onClick={() => toggleVisibility('elementToToggle1')}>{`${isVisible5 ? 'Einklappen' : 'Mehr zur Person'}`}</Button>
                                             </Box>
