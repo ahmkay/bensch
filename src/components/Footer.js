@@ -45,7 +45,6 @@ export default function Footer() {
                 location="bottom"
                 buttonText="Verstanden"
                 cookieName="myAwesomeCookieName2"
-                style={{ background: "#9AAFB7" }}
                 buttonStyle={{ color: "#ffffff", fontSize: "16px" }}
                 expires={150}
             >

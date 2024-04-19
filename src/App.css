@@ -1129,6 +1129,7 @@ p {
   display: flex !important;
   justify-content: space-between !important;
   align-content: center !important;
+  background-color: #9fb69c !important;
 }
 .CookieConsent > div > p {
   font-weight: 300 !important;
